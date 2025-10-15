@@ -14,5 +14,5 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-echo 'src-git qmodem https://github.com/xhikarishii/QModem.git;aw1000-qmodem' >>feeds.conf.default
+echo 'src-git qmodem https://github.com/xhikarishii/QModem.git' >>feeds.conf.default
 echo 'src-git aw1000 https://github.com/xhikarishii/aw1000-packages.git' >>feeds.conf.default

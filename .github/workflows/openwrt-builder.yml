@@ -17,8 +17,8 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/AgustinLorenzo/openwrt.git
-  REPO_BRANCH: main_nss
+  REPO_URL: https://github.com/openwrt/openwrt.git
+  REPO_BRANCH: openwrt-24.10
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   ADD_PACKAGES_SH: add-packages.sh
